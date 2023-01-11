@@ -1,11 +1,11 @@
 <template>
-  <div>App跟组件</div>
-  <!-- <vant-button type="primary">vant按钮</vant-button> -->
-  <van-button type="primary">主要按钮</van-button>
+  <router-view></router-view>
 </template>
 
-<script setup></script>
+<!-- <script setup></script> -->
 
 <style lang="less" scoped>
-
+// .root {
+//   height: 50px;
+// }
 </style>
